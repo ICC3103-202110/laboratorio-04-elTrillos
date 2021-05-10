@@ -16,7 +16,7 @@ function app(counter){
     while(true){
         console.clear();
         console.log(view(counter));
-        var input = prompt('');
+        var input = prompt('What would you do?');
         if(input==="q"){break;}
         counter=update(input,counter);     
     }
