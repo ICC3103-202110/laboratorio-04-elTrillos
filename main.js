@@ -9,9 +9,7 @@ function update(msg,counter){
 
     else if(msg ==="q"){return counter;}
 
-    else{
-        console.log("Por favor no ingresar inputs distintos a los pedidos");
-        return counter;}
+    else{return counter;}
 }
 
 function app(counter){
